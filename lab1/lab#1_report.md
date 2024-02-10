@@ -1,12 +1,12 @@
-University: [ITMO University](https://itmo.ru/ru/)
-Faculty: [FICT](https://fict.itmo.ru)
-Course: [IP-telephony](https://github.com/itmo-ict-faculty/ip-telephony)
-Year: 2023/2024
-Group: K34212
-Author: Spevak Elena
-Lab: Lab1
-Date of create: 10.02.2024
-Date of finished: 13.02.2024
+#### University: [ITMO University](https://itmo.ru/ru/)
+#### Faculty: [FICT](https://fict.itmo.ru)
+#### Course: [IP-telephony](https://github.com/itmo-ict-faculty/ip-telephony)
+#### Year: 2023/2024
+#### Group: K34212
+#### Author: Spevak Elena
+#### Lab: Lab1
+#### Date of create: 10.02.2024
+#### Date of finished: __.02.2024
 
 # Лабораторная работа №1
 # "Базовая настройка IP-телефонов в среде Сisco packet tracer"
@@ -19,20 +19,20 @@ Date of finished: 13.02.2024
 
 В среде Cisco Packet Tracer была собрана следующая схема соединения.
 
-![Схема 1](lab1\images\IP-tel_lab1_schema1.drawio.png)
+![Схема 1](https://github.com/LenaSpevak/2023_2024-ip-telephony-k34212-spevak_e_a/blob/main/lab1/images/IP-tel_lab1_schema1.drawio.png)
 
 На ней были четыре коммутатора, к которым были подключены семь компьютеров. Для соединения коммутаторов был использован кабель медная витая пара (copper cross-over). Для подлкючения комьютеров был использован кабель прямого типа (copper straight-through). Компьютерам были даны статические адреса из сети 192.168.10.0 под маской 255.255.255.0 (192.168.10.1-192.168.10.7 соответсвенно). Для проверки связанности комьютеров использовались ping запросы.
 Примеры проверки связанности представлены ниже.
 
-![Связанность 1 и 7](lab1\images\ping 1.png)
+![Связанность 2 и 4](https://github.com/LenaSpevak/2023_2024-ip-telephony-k34212-spevak_e_a/blob/main/lab1/images/ping%201.png)
 
-![Связанность 3 и 5](lab1\images\ping 2.png)
+![Связанность 0 и 6](https://github.com/LenaSpevak/2023_2024-ip-telephony-k34212-spevak_e_a/blob/main/lab1/images/ping%202.png)
 
 Часть 2.
 
 1. Была собрана вторая схема, представленная на рисунке ниже
 
-![Схема 2](lab1\images\IP-tel_lab1_schema2.drawio.png)
+![Схема 2](https://github.com/LenaSpevak/2023_2024-ip-telephony-k34212-spevak_e_a/blob/main/lab1/images/IP-tel_lab1_schema2.drawio.png)
 
 2.  На ней с помощью команды  ```# hostname CMERouter``` было изменено имя маршрутизатора. 
 3.  На нем же был настроен интерфейс fa0/0:
@@ -63,7 +63,7 @@ CMERouter(config)#no shutdown
 
 Для проверки связанности телефонов был произвден звонок:
 
-![Звонок с телефона на телефон](lab1\images\cheking_calls.png)
+![Звонок с телефона на телефон](https://github.com/LenaSpevak/2023_2024-ip-telephony-k34212-spevak_e_a/blob/main/lab1/images/cheking_calls.png)
 
 Конфигурационный файл маршрутизатора предсталвен ниже:
 
