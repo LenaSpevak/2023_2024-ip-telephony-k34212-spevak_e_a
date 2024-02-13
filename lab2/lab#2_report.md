@@ -19,7 +19,7 @@
 
 В среде Cisco Packet tracer была реализована схема, изображенная ниже
 
-![Схема 1](https://github.com/LenaSpevak/2023_2024-ip-telephony-k34212-spevak_e_a/blob/main/lab2/images/IP-TelephonyLab2Schema1.drawio.png)
+![Схема 1](https://github.com/LenaSpevak/2023_2024-ip-telephony-k34212-spevak_e_a/blob/main/lab2/images/IP-telephonyLab2Schema1.drawio.png)
 
 С помощью команды  ```# hostname CMERouter``` было изменено имя маршрутизатора. 
 
@@ -199,7 +199,7 @@ end
    
 Для второй части была в Cisco Packet Tracer была построена следующая схема:
 
-![Схема 2](https://github.com/LenaSpevak/2023_2024-ip-telephony-k34212-spevak_e_a/blob/main/lab2/images/IP-TelephonyLab2Schema1.drawio.png)
+![Схема 2](https://github.com/LenaSpevak/2023_2024-ip-telephony-k34212-spevak_e_a/blob/main/lab2/images/IP-TelephonyLab2Schema2.drawio.png)
 
 На коммутаторе было создано два vlan: 10 - для компьютеров, между которыми передаются данные, и  20 - для ip-телефонов. Были настроены порты: fa0/1, через которое происходит подключение к маршрутизатору, настроен в режиме trunk, а fa0/2-4, ведущие к конечным устройствам, настроены в режиме access. 
 
