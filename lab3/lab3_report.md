@@ -27,7 +27,7 @@ sudo apt-get install asterisk
 
 После установки был проверен статус службы с помощью команды ```sudo systemctl status asterisk```
 
-[Статус службы asterisk](./images/Asterisk_status.png)
+![Статус службы asterisk](./images/Asterisk_status.png)
 
 Для настроки службы в дириктории /etc/asterisk были отредактированы конфигурационные файлы sip.conf и extensions.conf. 
 
@@ -66,7 +66,7 @@ exten => 402,1,Dial(SIP/402)
 
 После установки и запуска был настроен аккаунт: заполнены данными абонента 401. В качестве сервера был указан адрес локального хоста. Настройки аккаунта продемонстрированы ниже:
 
-[Аккаунт в Zoiper5](./images/Zoiper5.png)
+![Аккаунт в Zoiper5](./images/Zoiper5.png)
 
 **MiscroSIP**
 
@@ -76,7 +76,7 @@ exten => 402,1,Dial(SIP/402)
 
 В акканут были внесены данные абонента 402, в качестве сервера был также указан адрес 127.0.0.1.
 
-[Аккаунт MicroSIP](./images/MicroSIP.png)
+![Аккаунт MicroSIP](./images/MicroSIP.png)
 
 После настроек аккаунтов были проверены каналы SIP. Для этого была запущена косноль asterisk и введена следующая команда:
 
@@ -88,10 +88,10 @@ sip show peers
 
 Оба акканта добавлены, находятся в состоянии online и им назначены порты.
 
-[sip show peers](./images/show_peers.png)
+![sip show peers](./images/show_peers.png)
 
 Для проверки связи был совершон звонок:
 
-[Звонок](./images/Call.png)
+![Звонок](./images/Call.png)
 
 **Вывод**-был изучен программный комплекс Astrisk и была произведена его настройка для локальных звонков.
